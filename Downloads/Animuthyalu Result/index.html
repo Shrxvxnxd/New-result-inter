@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Check Animuthyalu Intermediate 1st & 2nd Year Results 2025 online.">
+    <title>Animuthyalu Intermediate Results 2025 - Sri Chaitanaya</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-overlay" id="loadingScreen">
+        <div class="loading-content">
+            <div class="loading-spinner"></div>
+            <div class="loading-text">Fetching Results...</div>
+        </div>
+    </div>
+    
+    <main class="container">
+        <header class="page-header">
+            <h1>Animuthyalu Intermediate Examination Results 2025</h1>
+            <p class="tagline">Access your academic scores for General and Vocational courses</p>
+        </header>
+
+        <nav class="tabs" role="tablist">
+            <button class="tab-btn active" role="tab" aria-selected="true" aria-controls="firstYear" 
+                    id="tabFirst" onclick="openTab('firstYear')">1st Year Results</button>
+            <button class="tab-btn" role="tab" aria-selected="false" aria-controls="secondYear" 
+                    id="tabSecond" onclick="openTab('secondYear')">2nd Year Results</button>
+        </nav>
+
+        <article class="result-section" id="resultSection" aria-live="polite" style="display: none;">
+            <h2 class="section-heading">Telangana Intermediate Result 2025</h2>
+            <div id="resultData" class="result-data"></div>
+        </article>
+
+        <section id="firstYear" class="tab-content active" role="tabpanel" aria-labelledby="tabFirst">
+            <div class="search-box">
+                <div class="input-group">
+                    <label for="hallTicket1" class="sr-only">1st Year Hall Ticket Number</label>
+                    <input type="text" id="hallTicket1" placeholder="Enter 1st Year Hall Ticket Number" 
+                           aria-describedby="ht1Help">
+                    <small id="ht1Help" class="sr-only">10-digit hall ticket number</small>
+                </div>
+                <button onclick="checkResults('1st')" aria-label="Check 1st Year Results">
+                    Get 1st Year Results
+                </button>
+            </div>
+        </section>
+
+        <section id="secondYear" class="tab-content" role="tabpanel" aria-labelledby="tabSecond" hidden>
+            <div class="search-box">
+                <div class="input-group">
+                    <label for="hallTicket2" class="sr-only">2nd Year Hall Ticket Number</label>
+                    <input type="text" id="hallTicket2" placeholder="Enter 2nd Year Hall Ticket Number"
+                           aria-describedby="ht2Help">
+                    <small id="ht2Help" class="sr-only">10-digit hall ticket number</small>
+                </div>
+                <button onclick="checkResults('2nd')" aria-label="Check 2nd Year Results">
+                    Get 2nd Year Results
+                </button>
+            </div>
+        </section>
+    </main>
+    <div class="disclaimer">
+        <h2>Disclaimer</h2>
+        
+        <p><strong>This website is made for educational purposes only.</strong> It is not an official or legal TG Intermediate results marks memo. This is only internet results. While we do our best to ensure accuracy, we are not responsible for any mistakes, mismatches, or losses that may occur.</p>
+
+        <p>Kindly verify any doubts regarding results with the official TG Board website or contact your college for any clarifications.</p>
+
+        <p class="highlight">If any government authorities want to close results from this website, please mail to <a href="mailto:animuthyalu7@gmail.com">animuthyalu7@gmail.com</a>.</p>
+
+        <p>Powered by TCL</p>
+        <p> Thanks to Eenadu, Sakshi, and the TG inter Board for making the results accessible.</p>
+
+        <div class="follow-section">
+            <h3>Follow Us for Updates</h3>
+            <p>📱 Follow us on <a href="https://www.instagram.com/sri_chaitanya_animuthyalu" target="_blank">Instagram</a> for more updates!</p>
+            
+            <div class="channel-updates">
+                <h4>Sri Chaitanya Animuthyalu Broadcast Channel</h4>
+                <p>Stay updated with the latest announcements and news:</p>
+                <a href="https://www.instagram.com/channel/AbbsHVHoog3Zd6MP" class="ig-button" target="_blank">
+                    Follow Now on Instagram
+                </a>
+            </div>
+        </div>
+        
+        <footer>
+            <p>Made with ❤️ by Sri Chaitanya Animuthyalu</p>
+        </footer>
+    </div>
+    
+
+    <script src="script.js"></script>
+    <script src="result.js"></script>
+
+</body>
+</html>

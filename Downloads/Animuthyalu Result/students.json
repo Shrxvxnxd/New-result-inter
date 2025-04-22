@@ -1,0 +1,70 @@
+[
+    {
+        "name": "Rahul Sharma",
+        "hallTicket": "2025112233",
+        "year": 1,
+        "status": "Pass",
+        "subjects": [
+            {"name": "Mathematics", "grade": "A1", "marks": 98},
+            {"name": "Physics", "grade": "A2", "marks": 92},
+            {"name": "Chemistry", "grade": "B1", "marks": 85},
+            {"name": "English", "grade": "A2", "marks": 89},
+            {"name": "Computer Science", "grade": "A1", "marks": 97}
+        ],
+        "total": {
+            "marks": "461/500",
+            "percentage": "92.2%"
+        }
+    },
+    {
+        "name": "Priya Patel",
+        "hallTicket": "2025223344",
+        "year": 2,
+        "status": "Pass",
+        "subjects": [
+            {"name": "Mathematics", "grade": "A1", "marks": 195},
+            {"name": "Physics", "grade": "A2", "marks": 188},
+            {"name": "Chemistry", "grade": "B1", "marks": 172},
+            {"name": "English", "grade": "A2", "marks": 182},
+            {"name": "Computer Science", "grade": "A1", "marks": 195}
+        ],
+        "total": {
+            "marks": "932/1000",
+            "percentage": "93.2%"
+        }
+    },
+    {
+        "name": "Vikram Singh",
+        "hallTicket": "2025133445",
+        "year": 1,
+        "status": "Fail",
+        "subjects": [
+            {"name": "Mathematics", "grade": "F", "marks": 25},
+            {"name": "Physics", "grade": "D", "marks": 40},
+            {"name": "Chemistry", "grade": "F", "marks": 28},
+            {"name": "English", "grade": "C", "marks": 55},
+            {"name": "Computer Science", "grade": "B", "marks": 60}
+        ],
+        "total": {
+            "marks": "208/500",
+            "percentage": "41.6%"
+        }
+    },
+    {
+        "name": "Anjali Reddy",
+        "hallTicket": "2025244556",
+        "year": 2,
+        "status": "Fail",
+        "subjects": [
+            {"name": "Mathematics", "grade": "B", "marks": 75},
+            {"name": "Physics", "grade": "F", "marks": 28},
+            {"name": "Chemistry", "grade": "C", "marks": 65},
+            {"name": "English", "grade": "F", "marks": 30},
+            {"name": "Computer Science", "grade": "A", "marks": 80}
+        ],
+        "total": {
+            "marks": "278/500",
+            "percentage": "55.6%"
+        }
+    }
+]
